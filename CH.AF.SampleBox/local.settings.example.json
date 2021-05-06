@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "Sbus1": "Endpoint=sb://busname.servicebus.windows.net/;SharedAccessKeyName=p1;SharedAccessKey=access-key-here;",
+    "CH-Endpoint": "https://contenthubinstance.com",
+    "CH-ClientId": "oauth-clientid",
+    "CH-ClientSecret": "oauth-secret",
+    "CH-Username": "user-name",
+    "CH-Password": "password"
+  }
+}
