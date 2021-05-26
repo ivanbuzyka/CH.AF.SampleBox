@@ -14,5 +14,10 @@ namespace CH.AF.SampleBox
             public static string Username => Environment.GetEnvironmentVariable("CH-Username");
             public static string Password => Environment.GetEnvironmentVariable("CH-Password");
         }
+        public static class StorageAccont
+        {
+            public static string ConnectionString => Environment.GetEnvironmentVariable("SA-ConnectionString");
+            public static string ContainerName => Environment.GetEnvironmentVariable("SA-ContainerName");
+        }
     }
 }

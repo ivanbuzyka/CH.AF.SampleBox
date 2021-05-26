@@ -8,6 +8,8 @@
     "CH-ClientId": "oauth-clientid",
     "CH-ClientSecret": "oauth-secret",
     "CH-Username": "user-name",
-    "CH-Password": "password"
+    "CH-Password": "password",
+    "SA-ContainerName": "ch-upload-test",
+    "SA-ConnectionString": "DefaultEndpointsProtocol=https;AccountName=testaccountname;AccountKey=akeyhere;EndpointSuffix=core.windows.net"
   }
 }
